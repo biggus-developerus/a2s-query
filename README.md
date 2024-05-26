@@ -34,3 +34,4 @@ if packet.type == query.A2SPacketType.S2C_CHALLENGE:
 # TODO 
 - [ ] Pack method for responses (A2SInfoResp & A2SPlayerResp)
 - [ ] Net package (allows for sending query responses and requests)
+- [ ] Multi-packet Response support (split_type = -2)
