@@ -1,6 +1,8 @@
 # a2s-query
 Simple python implementation of the A2S query protocol 
 
+A2S protocol info [here](https://developer.valvesoftware.com/wiki/Server_queries).
+
 A2S info request
 ```py
 query.A2SPacket(
