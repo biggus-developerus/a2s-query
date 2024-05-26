@@ -16,7 +16,7 @@ s.sendto(
 
 while True:
     data, addr = s.recvfrom(1024)
-    packet = query.A2SPacket.unpack(data)
+    packet = query.A2SPacket.unpack(bytearray(data))
 
     if not packet:
         print(data)
